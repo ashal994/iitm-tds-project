@@ -1,9 +1,21 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>IITM TDS Sample App</title>
+    <meta charset="UTF-8">
+    <title>Captcha Solver</title>
+    <script src="script.js" defer></script>
 </head>
 <body>
-    <h1>App will appear here</h1>
+    <h1>Captcha Solver</h1>
+
+    <!-- Display captcha -->
+    <div id="captcha">AB12</div>
+
+    <!-- User input -->
+    <input type="text" id="input-captcha" placeholder="Enter captcha here">
+    <button onclick="checkCaptcha()">Submit</button>
+
+    <!-- Result -->
+    <div id="result"></div>
 </body>
 </html>

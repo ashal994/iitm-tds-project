@@ -1,13 +1,15 @@
-# IITM TDS Sample App
+# Captcha Solver
 
-## Summary
-This is a placeholder app for Round 1.
-
-## Setup
-Open `index.html` in a browser.
+This project implements a simple captcha solver web page.
 
 ## Usage
-Currently just displays placeholder text.
 
-## License
-MIT
+1. Open `index.html` in a browser.
+2. The page shows a captcha.
+3. Enter the captcha in the input box and click Submit.
+4. If correct, it shows "Captcha solved!"
+
+## Features
+
+- Page loads correctly
+- User can solve the captcha
